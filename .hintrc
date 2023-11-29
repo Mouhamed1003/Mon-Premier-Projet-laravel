@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "text-align: -webkit-match-parent"
+        ]
+      }
+    ],
+    "css-prefix-order": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 115",
+    "not edge <= 115",
+    "not firefox <= 116",
+    "not samsung <= 21",
+    "not and_chr <= 115",
+    "not chrome <= 115",
+    "not safari <= 16.5"
+  ]
+}
